@@ -26,9 +26,9 @@ function boredButt() {
       }
     })
     .catch(err =>{
-      if (err.message=='') {
+      /*if (err.message=='') {
         alrM.innerHTML = ''
-      } else {
+      } else */{
         alrM.innerHTML = `<div class="alert alert-warning" role="alert">${err.message}
         </div>`
       }
