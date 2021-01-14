@@ -6,7 +6,7 @@ var alrM = document.querySelector('#alrBox')
 function boredButt() {
   var arr1 = [1, 2, 3, 4, 5]
   const partRan = arr1[Math.floor(Math.random() * arr1.length)];
-  var intee = `http://www.boredapi.com/api/activity?participants=${partRan}`
+  var intee = `https://www.boredapi.com/api/activity?participants=${partRan}`
   /*async function arg() {
     let info = await fetch(intee)
 
